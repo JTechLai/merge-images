@@ -2,7 +2,7 @@ type ImageSource = { src: Image; x?: number; y?: number; opacity?: number };
 type Image = string | Buffer;
 
 interface Options {
-  format: string;
+  format: "image/png" | "image/jpeg" | "image/webp";
   quality: number;
   width: number;
   height: number;
