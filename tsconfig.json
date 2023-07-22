@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    /* 基本选项 */
+    "target": "es5" /* 指定 ECMAScript 目标版本: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', 'ES2021', or 'ESNEXT'. */,
+    "module": "esnext" /* 指定用于编译器的模块：'none', 'commonjs', 'amd', 'system', 'umd', 'es6', 'es2015', 'es2020', 'esnext', or 'CommonJS'. */,
+    "lib": ["es6", "dom"] /* 指定库文件用于编译 */,
+    "outDir": "./dist" /* 输出目录 */,
+    "strict": true /* 启用所有严格类型检查选项 */,
+    "esModuleInterop": true /* 通过为所有导入生成命名空间导入，模拟ECMAScript的导入 */,
+    "skipLibCheck": true /* 忽略所有的声明文件（ *.d.ts）的类型检查 */,
+    "forceConsistentCasingInFileNames": true /* 在引入模块时强制使用一致的大小写 */
+  },
+  "exclude": ["node_modules"]
+}
